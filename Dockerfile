@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM python:3.12-slim-bookworm AS base
+FROM python:3.14.10-slim-bookworm AS base
 
 FROM base AS builder
 
